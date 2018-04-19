@@ -21,6 +21,7 @@ body {
 h1 {
   font-family: "Berkshire Swash", serif;
   font-size: 62px;
+  max-width: 400px;
   Color: pink;   
 }
 
