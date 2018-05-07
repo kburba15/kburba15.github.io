@@ -17,20 +17,25 @@
         height: 100%;
       }
       body {
+        background-color: rebeccapurple
         background: white;
         font-family: Arial, sans-serif;
         font-size: 14px;
-        color:rebeccapurple;
+        color:white;
         margin: 0;
         padding: 0;
       }
       img{
-        width:100%;
+        width:90%;
       }
       h1 {
         color:rebeccapurple;
         font-family:'Bangers';
       }
+      h2 {
+        color:rebeccapurple
+      }
+      
       .swiper-container {
         width: 100%;
         height: 100%;
@@ -49,6 +54,12 @@
         padding: 20px;
         width:80%;
       }
+      /* Bottom left text */
+      .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+      }
       .background {
         position: absolute;
         left: 0;
@@ -58,6 +69,7 @@
         -webkit-background-size: cover;
         background-size: cover;
         background-position: center;
+        background-color:rebeccapurple
       }
       .video-container {
         position:relative;
@@ -79,20 +91,23 @@
     <!-- Swiper -->
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><div class="center"><h1>Hofstra University Relay for Life 2018</h1></div></div>
+        <div class="swiper-slide"><div class="center"><h1>Hofstra University Relay for Life 2018</h1>
+          <h2> By Kathryn Burba and Jeremy Skiba</h2></div></div>
         <div class="swiper-slide"><div class="center"><img src="https://www.infiniteenergycenter.com/assets/img/RFL17-Event-Image-670x350-01-7a67e2f148.jpg">
-          <p> The American Cancer Society is an organization that raises funds and awareness for cancer research through their Relay for Life Events.</p></div></div>
+          <h2> The American Cancer Society is an organization that raises funds and awareness for cancer research through their main event, Relay for Life.</h2></div></div>
         <div class="swiper-slide"><div class="video-container">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/2798Saym-6o?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div></div>
         <div class="swiper-slide">
-          <div class="background"><img src="https://longislandreport.org/wp-content/uploads/2018/05/IMG_7060.jpeg">
-            <p>This event hits close to home for the Hofstra Community because approxamately 35,000 New Yorkers die from cance every year, with numbers only rising.</p></div></div> 
+          <div class="background"><img src="https://longislandreport.org/wp-content/uploads/2018/05/IMG_7060.jpeg" style="width:102%;">
+            <div class="bottom-left">This event hits close to home for the Hofstra Community because approx. 35,000 New Yorkers die from cance every year, with numbers that are continually increasing.</div>
+            </div></div> 
         <div class="swiper-slide"></div>
         <div class="swiper-slide"><div class="video-container">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/gJOUJKWAR88?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div></div>
-        <div class="swiper-slide"><div class= "background"><img src="https://longislandreport.org/wp-content/uploads/2018/05/IMG_7076.jpeg">
-          <p> This event hits close to home for the Hofstra Community because approx. 35,000 New Yorkers die from cance every year, with numbers only rising.</p>
+        <div class="swiper-slide"><div class= "background"><img src="https://longislandreport.org/wp-content/uploads/2018/05/IMG_7076.jpeg"style="width:105%;">
+          <div class="bottom-left">The community honors loved ones lost by lighting candles in their honor to light the relay path.</div>
+          
         </div>
       </div>
         <div class="swiper-slide"><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;We’re proud of all we’ve done with Relay for Life over the years - and proud to have done it at Hofstra.&quot; <a href="https://t.co/ODhbEHQYcO">https://t.co/ODhbEHQYcO</a> <a href="https://twitter.com/hashtag/HofRelayForLife?src=hash&amp;ref_src=twsrc%5Etfw">#HofRelayForLife</a> <a href="https://twitter.com/hashtag/HUWorldChanger?src=hash&amp;ref_src=twsrc%5Etfw">#HUWorldChanger</a> <a href="https://twitter.com/hashtag/HumansOfHofstra?src=hash&amp;ref_src=twsrc%5Etfw">#HumansOfHofstra</a> <a href="https://t.co/cCdKKwIypG">pic.twitter.com/cCdKKwIypG</a></p>&mdash; Hofstra University (@HofstraU) <a href="https://twitter.com/HofstraU/status/991009758684635137?ref_src=twsrc%5Etfw">April 30, 2018</a></blockquote>
@@ -100,7 +115,6 @@
         </div>
         <div class="swiper-slide">Slide 8</div>
         <div class="swiper-slide">Slide 9</div>
-        <div class="swiper-slide">Slide 10</div>
       </div>
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
@@ -121,3 +135,4 @@
     </script>
   </body>
 </html>
+
